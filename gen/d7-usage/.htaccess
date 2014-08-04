@@ -1,0 +1,10 @@
+DirectoryIndex index.html
+
+AuthUserFile "/home/clients/websites/w_d7/.htpasswd.stats"
+AuthType Basic
+AuthName Statistics
+Require valid-user
+Satisfy all
+Deny from all
+Allow from all
+Order Deny,Allow
